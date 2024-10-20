@@ -7,9 +7,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	log "github.com/Sirupsen/logrus"
 	numa "github.com/cheyang/numa-utils/proto"
 	"github.com/cheyang/numa-utils/service"
+	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc"
 )
 
